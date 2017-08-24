@@ -27,6 +27,15 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
           
+            {% if site.author.stackoverflow_id %}
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow_id }}" title="@{{ site.author.stackoverflow_id }} on Twitter" target="_blank">
+                  <i class="icon icon-social-stack-overflow"></i>
+                  <span class="label">Stackoverflow</span>
+                </a>
+              </li>
+            {% endif %}
             {% if site.author.twitter_username %}
               <!-- Twitter -->
               <li class="navigation__item">

@@ -1,5 +1,5 @@
 # Site settings
-title: renemilk
+title: renefritze
 description: ''
 url: 'http://milk.pm'
 baseurl: '/'
@@ -7,12 +7,12 @@ baseurl: '/'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'René Milk'
-  email: rene@milk.pm
-  twitter_username: rene_milk
-  facebook_username: renemilk
-  github_username:  renemilk
-  linkedin_username:  renemilk
+  name: 'René Fritze'
+  email: rene@fritze.me
+  twitter_username: rene_fritze
+  facebook_username: r.fritze
+  github_username:  renefritze
+  linkedin_username:  renefritze
   stackoverflow_id: 2290151
 
 defaults:

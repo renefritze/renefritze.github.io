@@ -109,7 +109,7 @@ GEM
     rdiscount (2.1.8)
     redcarpet (3.3.3)
     rouge (1.10.1)
-    safe_yaml (1.0.4)
+    safe_yaml (1.0.5)
     sass (3.4.21)
     sawyer (0.6.0)
       addressable (~> 2.3.5)

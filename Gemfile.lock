@@ -16,7 +16,7 @@ GEM
     concurrent-ruby (1.1.10)
     ethon (0.15.0)
       ffi (>= 1.15.0)
-    execjs (2.6.0)
+    execjs (2.8.1)
     faraday (2.3.0)
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)

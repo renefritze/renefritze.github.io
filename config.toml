@@ -8,6 +8,8 @@ paginate = 5
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
+  
+  author = 'René Fritze'
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
@@ -32,6 +34,7 @@ paginate = 5
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
   showLastUpdated = false
+  enableGitInfo = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -83,14 +86,13 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "talks"
-        name = "Talks"
-        url = "/talks"
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
-
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
 
 [module]
   # this is needed when you fetch the theme as a submodule to your repo.

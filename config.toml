@@ -1,6 +1,15 @@
 baseURL = 'https://rene.fritze.me/'
 languageCode = 'en-us'
 title = 'rene.fritze.me'
+# theme = "hugo-theme-terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "talks"
+  themeColor = "orange"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
 
 paginate = 5
 

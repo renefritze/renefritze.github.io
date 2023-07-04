@@ -17,7 +17,7 @@ paginate = 5
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
-  
+
   author = 'René Fritze'
 
   # ["orange", "blue", "red", "green", "pink"]

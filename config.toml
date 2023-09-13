@@ -5,11 +5,12 @@ title = 'rene.fritze.me'
 paginate = 5
 
 [params]
-  contentTypeName = "talks"
+  # this controls what's listed at '/'
+  contentTypeName = "posts"
   themeColor = "orange"
   showMenuItems = 2
   fullWidthTheme = false
-  centerTheme = false
+  centerTheme = true
 
 paginate = 5
 

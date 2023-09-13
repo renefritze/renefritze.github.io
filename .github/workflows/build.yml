@@ -39,16 +39,6 @@ jobs:
               touch -r "$file".gz "$file"
           done
 
-      - name: Compress tor static files
-        run: |
-          cd tor
-          for file in $(find . -type f)
-          do
-              zopfli "$file"
-              rm "$file"
-              touch -r "$file".gz "$file"
-          done
-
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:

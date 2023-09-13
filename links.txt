@@ -1,0 +1,7 @@
+https://themes.gohugo.io/themes/hugo-theme-terminal/
+
+https://hugo-coder.netlify.app/
+
+https://themes.gohugo.io/tags/personal/
+
+https://til.simonwillison.net/mastodon/verifying-github-on-mastodon

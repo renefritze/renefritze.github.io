@@ -38,11 +38,11 @@ jobs:
               rm "$file"
               touch -r "$file".gz "$file"
           done
-
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
         with:
           path: public
+
 
   deploy:
     if: github.ref == 'refs/heads/main'
@@ -62,6 +62,14 @@ jobs:
     # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: public
+          path: public
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: public
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2 # or th
+        uses: actions/deploy-pages@v2
